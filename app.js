@@ -1,5 +1,3 @@
-'use strict';
-
 class App extends React.Component {
   constructor() {
     super();
@@ -17,8 +15,8 @@ class App extends React.Component {
           Show Form
         </button>
         <button type="button" disabled={this.state.shown === false}
-                className="btn btn-danger mt-4 ml-2
-                " onClick={() => this.setState({shown: false})}>
+                className="btn btn-danger mt-4 ml-2"
+                onClick={() => this.setState({shown: false})}>
           Hide Form
         </button>
         <form className={
